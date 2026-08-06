@@ -7,7 +7,7 @@ Groups related actions together.
 Helps identify exactly where a test failed.
 Improves collaboration when multiple team members review reports.
 
-Example
+Example:
 import { test, expect } from '@playwright/test';
 
 test('User Login', async ({ page }) => {
@@ -31,7 +31,7 @@ test('User Login', async ({ page }) => {
 
 });
 
-Benefits
+Benefits:
 ✔ Better debugging experience
 
 ✔ Cleaner Playwright reports
@@ -40,5 +40,5 @@ Benefits
 
 ✔ Useful for long end-to-end scenarios
 
-My Take
+My Take:
 For small tests, test.step() may not make a huge difference. But for large workflows like checkout, user registration, or multi-page forms, it makes the reports much more organized and easier to analyze.
