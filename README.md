@@ -22,7 +22,7 @@ Supports CSS, XPath, and text selectors, making element handling flexible and re
 ✅ **Built-in Test Runner**
 No need for external frameworks — Playwright provides a robust test runner with reporting, retries, and fixtures.
 
-💡 **Real-World Use Case:**
+💡**Real-World Use Case:**
 In my recent automation work, I used Playwright to:
 
 * Handle dynamic UI elements
